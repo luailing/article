@@ -1,0 +1,71 @@
+html, body {
+    color: black;
+    font-size: 15px;
+}
+
+.articleBox {
+    margin: 0 auto;
+    width: 640px;
+}
+
+.headerBox {
+    margin: 0px auto;
+
+}
+
+.headerBox h1 {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.headerBox div {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.headerBox div span:nth-of-type(1) {
+    color: #576B95;
+}
+
+.headerBox div span:nth-of-type(2) {
+    color: #576B95;
+    margin-left: 10px;
+}
+
+.mainBox {
+
+}
+
+.mainBox p {
+    margin-top: 10px;
+    text-indent: 2em;
+    line-height: 30px;
+}
+
+.mainBox h3 {
+    color: mediumblue;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.mainBox img {
+    margin: 10px 0 0;
+    width: 100%;
+}
+
+.mainBox .echarts {
+    margin: 10px 0;
+    height: 400px;
+}
+
+@media all and (max-width: 640px) {
+    .articleBox {
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .mainBox .echarts {
+        height: 260px;
+    }
+}
